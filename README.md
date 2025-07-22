@@ -6,7 +6,7 @@ Welcome! This repository contains a fully responsive, modern portfolio website t
 
 [Figma Template](https://www.figma.com/design/E75ZEIxqExtHsQh1rYDQPs/RYN---Case-Study-Website--Community-?node-id=23-159&t=2YgznwckmHW1nlmK-0)
 
-[Portfolio Screenshot](assets/Screenshot 2025-07-22 161940.png)
+[Portfolio Screenshot](assets/Screenshot3.png)
 
 
 
