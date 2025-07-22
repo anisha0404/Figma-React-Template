@@ -4,8 +4,9 @@ Welcome! This repository contains a fully responsive, modern portfolio website t
 
 
 
-[Figma Template](https://www.figma.com/design/E75ZEIxqExtHsQh1rYDQPs/RYN---Case-Study-Website--Community-?node-id=23-159&t=2YgznwckmHW1nlmK-0)** | **[Live Demo](https://your-live-demo-link.com)
-![Portfolio Screenshot](assets/screenshot.png)
+[Figma Template](https://www.figma.com/design/E75ZEIxqExtHsQh1rYDQPs/RYN---Case-Study-Website--Community-?node-id=23-159&t=2YgznwckmHW1nlmK-0)
+
+![Portfolio Screenshot](C:\Users\ANISHA\Desktop\WebDev\React\New folder\template\src\assets\Screenshot 2025-07-22 161940.png)
 
 
 
@@ -29,7 +30,7 @@ This template provides a rock-solid foundation with all the essential features y
 
 ---
 
-## ## 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 * **React:** A powerful JavaScript library for building user interfaces.
 * **CSS3:** Custom styling for full control over the design, with no heavy frameworks.
@@ -37,11 +38,11 @@ This template provides a rock-solid foundation with all the essential features y
 
 ---
 
-## ## 🏁 How to Use This Template
+## 🏁 How to Use This Template
 
 Getting started with this template is easy.
 
-### ### Installation & Setup
+### Installation & Setup
 
 1.  **Get the code:** You can either clone the repository or click the "Use this template" button on GitHub.
     ```sh
