@@ -8,6 +8,8 @@ Welcome! This repository contains a fully responsive, modern portfolio website t
 
 [Portfolio Screenshot](src/assets/Screenshot3.png)
 
+![Portfolio Screenshot](assets/screenshot.png)
+
 
 
 ---
