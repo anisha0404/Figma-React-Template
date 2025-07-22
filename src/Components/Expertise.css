@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap');
+
+.expertise-container {
+  width: 100%;
+  background-color: #0A0A0A;
+  padding: 80px 24px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.expertise-inner-container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.Heading {
+  font-family: 'Syne', sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.Heading img {
+  width: 22px;
+  height: 22px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px 60px;
+}
+
+.box h2 {
+  font-family: 'Syne', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 14px;
+  color: white;
+}
+
+.box p {
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #cccccc;
+  text-align: left; 
+}
+
+/* Responsive: switch to single column on smaller devices */
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .Heading {
+    font-size: 34px;
+  }
+}
+@media (max-width: 768px) {
+  .experience-item {
+    /* Stack the role and company info vertically */
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    gap: 8px;
+  }
+
+  .company {
+    /* Stack company name and date on mobile */
+    flex-direction: column;
+    align-items: flex-start; /* Align to the left */
+    text-align: left;
+    gap: 4px;
+  }
+
+  .experience-heading {
+    font-size: 28px;
+  }
+
+  .role {
+    font-size: 18px;
+  }
+}

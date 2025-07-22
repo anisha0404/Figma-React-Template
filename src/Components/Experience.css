@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@800&display=swap');
+
+.experience-container {
+  padding: 40px 20px;
+  color: #fff;
+  font-family: 'Syne', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 1240px;
+  margin: 0 auto; /* centers the container */
+}
+
+.experience-heading {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.experience-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.experience-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  padding: 5px 0;
+}
+
+.experience-item .role {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.experience-item .company {
+  text-align: right;
+}
+
+.experience-item .company span {
+  font-weight: 600;
+  display: block;
+}
+
+.experience-item .company p {
+  font-size: 16px;
+  color: #bbb;
+  margin-top: 2px;
+}
+
+hr {
+  border: none;
+  border-bottom: 2px solid #333;
+}

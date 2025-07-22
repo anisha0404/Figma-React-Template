@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;800&display=swap');
+
+/* Keyframes for the scrolling animation */
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.lets-talk-container {
+  font-family: 'Syne', sans-serif;
+  color: #ffffff;
+  background-color: #0A0A0A;
+  padding: 60px 0; /* Changed padding to remove side space */
+  text-align: center;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Updated marquee styles */
+.marquee-text {
+  display: flex;
+  white-space: nowrap; /* Ensures text stays in a single line */
+}
+
+.marquee-text span {
+  font-family: 'Syne', sans-serif;
+  display: block; /* Changed from inline-block */
+  font-size: 36px;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 20px 2rem; /* Added horizontal padding for spacing */
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+  /* Animation properties */
+  animation: marquee 20s linear infinite;
+}
+
+.talk-box {
+  margin: 80px 0 40px;
+  padding: 0 24px; /* Added padding here instead */
+}
+
+.talk-heading {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+.talk-email {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: 0.3s ease;
+}
+
+.talk-email:hover {
+  border-color: #fff;
+}
+
+.talk-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 60px;
+  flex-wrap: wrap;
+  padding: 0 24px; /* Added padding here */
+}
+
+.credit {
+  opacity: 0.5;
+}
+
+.socials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.socials a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.socials a:hover {
+  opacity: 1;
+}
+
+/* --- Responsive Styles --- */
+
+@media (max-width: 768px) {
+  .lets-talk-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .marquee-text span {
+    font-size: 28px;
+    animation-duration: 15s; /* Speed up animation on smaller screens */
+  }
+
+  .talk-heading {
+    font-size: 36px;
+  }
+
+  .talk-footer {
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+    .marquee-text span {
+        font-size: 22px;
+    }
+
+    .talk-heading {
+        font-size: 30px;
+    }
+}

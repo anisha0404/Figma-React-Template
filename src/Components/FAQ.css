@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;800&display=swap');
+
+.faq-container {
+  color: #ffffff;
+  padding: 60px 80px;
+  font-family: 'Syne', sans-serif;
+  text-align: left;
+}
+
+.faq-heading {
+  font-size: 32px;
+  font-weight: 800;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 40px;
+  
+}
+
+.faq-question {
+  margin-bottom: 32px;
+}
+
+.faq-question h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.faq-question p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #bbb;
+  line-height: 1.6;
+  max-width: 900px;
+  text-align: left;
+}
+@media (max-width: 768px) {
+  .faq-container {
+    /* Reduce padding for smaller screens */
+    padding: 40px 24px;
+  }
+
+  .faq-heading {
+    /* Adjust heading font size */
+    font-size: 28px;
+  }
+
+  .faq-question h2 {
+    /* Adjust question font size */
+    font-size: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .faq-heading {
+    /* Further reduce heading font size for very small screens */
+    font-size: 24px;
+  }
+
+  .faq-question h2 {
+    /* Further reduce question font size */
+    font-size: 18px;
+  }
+
+  .faq-question p {
+      font-size: 15px; /* Slightly reduce body text for better fit */
+  }
+}
+@media (max-width: 260px) {
+  .faq-container {
+    /* Slightly reduce horizontal padding */
+    padding: 40px 20px;
+  }
+
+  .faq-heading {
+    font-size: 22px;
+  }
+}

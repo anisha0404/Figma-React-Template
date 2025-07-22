@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@800&display=swap');
+
+.home-container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 30px 25px;
+  background-color: #0a0a0a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.inner-container {
+  max-width: 1240px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+.text p {
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 80px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.text p img {
+  vertical-align: middle;
+  height: 64px;
+  width: auto;
+  border-radius: 32px;
+}
+.textt {
+  height: 64px;
+  width: auto;
+  border-radius: 12px;
+}
+.bottom-box {
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  width: 100%;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 35px;
+}
+.left-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.left-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ccc;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+.right-home {
+  max-width: 600px;
+  color: #ccc;
+  font-size: 14px;
+  font-family: sans-serif;
+  text-align: left;
+}
+@media (max-width: 768px) {
+  .text p {
+    /* Reduce the large font size for tablets */
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .text p img, .textt {
+    /* Adjust image heights to match the new line height */
+    height: 48px;
+  }
+
+  .bottom-box {
+    /* Stack the bottom items vertically */
+    flex-direction: column;
+    gap: 40px; /* Increase gap for vertical stacking */
+  }
+
+  .right-home {
+    /* Center the paragraph text when it's stacked */
+    text-align: center;
+    max-width: 90%;
+  }
+}
+
+/* For Mobile Phones 🤳 */
+@media (max-width: 480px) {
+  .text p {
+    /* Further reduce font size for small screens */
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  .text p img, .textt {
+    /* Match image height to the mobile font size */
+    height: 32px;
+  }
+
+  .left-list {
+    /* Allow the icon list to wrap and center itself on very small screens */
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Reduce gap to fit more on one line before wrapping */
+  }
+}

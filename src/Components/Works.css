@@ -1,0 +1,156 @@
+/* Reset default styles if needed */
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@800&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.works-container {
+  padding: 60px 20px;
+  color: #fff;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;;
+}
+
+.works-box {
+ width: 1240px;
+height: auto;
+gap: 32px;
+opacity: 1;
+border-radius: 40px;
+padding: 32px;
+margin: 0 auto;;
+
+}
+
+.Heading {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  position: relative;
+  padding-left: 20px;
+  
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+/* Each Work Card */
+.work-box {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  padding: 32px;
+  border-radius: 40px;
+  gap: 32px;
+  background: rgba(203, 203, 203, 0.48);
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* Image styling */
+.image-b0x img {
+    width: 572px;
+    height: 429px;
+    opacity: 1;
+    border-radius: 24px;
+
+}
+
+/* Content inside right side */
+.work-heading h2 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #fff;
+  font-family: 'Syne', sans-serif;
+}
+
+.work-para p {
+  font-size: 14px;
+  color: #cfcfcf;
+  line-height: 1.6;
+  margin-bottom: 18px;
+  max-width: 500px;
+  font-family: 'Syne', sans-serif;
+}
+
+/* Small buttons (tags) */
+.work-buttons {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.work-buttons button {
+    width:91px;
+    height: 30px;
+  padding: 6px 16px;
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 1);
+  background: transparent;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: default;
+  font-family: 'Syne', sans-serif;
+}
+
+/* View Case Study button */
+.work-case-button {
+  padding: 10px 24px;
+  font-size: 13px;
+  font-weight: 600;
+  border: none;
+  border-radius: 20px;
+  background: #ffffff;
+  color: #000000;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+  font-family: 'Syne', sans-serif;
+  margin-top:210px;
+}
+
+.work-case-button:hover {
+  background-color: #e2e2e2;
+}
+   
+
+
+@media (max-width: 992px) {
+  .work-box {
+    grid-template-columns: 1fr; /* Stack image and text */
+  }
+
+  .work-heading h2 {
+    font-size: 32px; /* Reduce heading size */
+  }
+
+  .work-case-button {
+    margin-top: 2rem; /* Add some space when stacked */
+  }
+}
+
+/* --- Responsive CSS for Mobile --- */
+@media (max-width: 576px) {
+  .works-box {
+    padding: 16px; /* Reduce padding on main container */
+  }
+
+  .work-box {
+    padding: 24px; /* Reduce padding on cards */
+  }
+
+  .Heading {
+    font-size: 28px; /* Reduce main heading size */
+  }
+
+  .work-heading h2 {
+    font-size: 24px; /* Further reduce card heading size */
+  }
+}
