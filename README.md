@@ -6,7 +6,7 @@ Welcome! This repository contains a fully responsive, modern portfolio website t
 
 [Figma Template](https://www.figma.com/design/E75ZEIxqExtHsQh1rYDQPs/RYN---Case-Study-Website--Community-?node-id=23-159&t=2YgznwckmHW1nlmK-0)
 
-![Portfolio Screenshot](C:\Users\ANISHA\Desktop\WebDev\React\New folder\template\src\assets\Screenshot 2025-07-22 161940.png)
+![Portfolio Screenshot](assets\Screenshot 2025-07-22 161940.png)
 
 
 
@@ -62,7 +62,7 @@ Getting started with this template is easy.
     ```
     Your portfolio will be running live at `http://localhost:3000`.
 
-### ### Customization Guide
+### Customization Guide
 
 1.  **Update Content:** All text can be changed directly within the component files located in the `src/` directory (e.g., `src/components/Home.jsx`, `src/components/Works.jsx`, etc.).
 2.  **Replace Images:** Add your own images (logo, project screenshots, profile picture) to the `src/Images` folder. Then, update the `import` statements at the top of the relevant components to point to your new images.
@@ -70,7 +70,7 @@ Getting started with this template is easy.
 
 ---
 
-## ## 🧩 Component Structure
+## 🧩 Component Structure
 
 The project is broken down into the following reusable components:
 
@@ -86,7 +86,3 @@ The project is broken down into the following reusable components:
 | **`Contact`** | The final call-to-action section with an animated marquee and social links. |
 
 ---
-
-## ## 📜 License
-
-This project is licensed under the MIT License - see the `LICENSE.md` file for details.
